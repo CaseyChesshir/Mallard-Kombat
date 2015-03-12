@@ -45,7 +45,7 @@ enemy based on the UW husky mascot
 * trojan.cpp
 slow moving enemy from USC
 
-*enemy.hpp
+* enemy.hpp
 allows us to abstract all of the things that an enemy needs
 
 * Makefile
