@@ -9,13 +9,17 @@ This README documents the steps necessary to get our application up and running.
 ### How do I get set up? ###
 
 * Summary of set up: 
+* You'll need to install the SDL dependencies via Homebrew if you're on OS X. 
+* Just go for the following commands after you have Homebrew:
+* brew install SDL2
+* brew install SDL2_image
+* brew install SDL2_Mixer
+* brew install SDL2_ttf
 * Dependencies: SDL2, SDL_image, SDL_mixer, SDL_ttf
 
 ### Contribution guidelines ###
 
-* Writing tests
-* Code review
-* Other guidelines
+* Pull this code all you want. Modify it however you see fit. I'd prefer if you told me just for my curiosity's sake but go for it.
 
 ### Who do I talk to? ###
 
