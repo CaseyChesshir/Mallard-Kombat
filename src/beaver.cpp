@@ -17,7 +17,7 @@ Beaver::Beaver(int x, int y){
 void Beaver::respawn(){
     unsigned seed = std::chrono::system_clock::now().time_since_epoch().count();
     std::default_random_engine generator(seed);
-    std::uniform_int_distribution<int> distribution(50 * Mallard::SCREEN_HEIGHT - 50);
+    std::uniform_int_distribution<int> distribution(50 , Mallard::SCREEN_HEIGHT - 50);
     enemyScalar.y= distribution(generator);
     midline = enemyScalar.y;
 }
